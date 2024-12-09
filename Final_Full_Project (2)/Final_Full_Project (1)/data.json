@@ -1,0 +1,72 @@
+{
+    "usuarios": [
+        {
+            "nombre": "Anderson Mesa",
+            "correo": "a.mesat@uniandes.edu.co",
+            "contrase\u00f1a": "anderson1234",
+            "rol": "Profesor"
+        },
+        {
+            "nombre": "Tomas Osuna",
+            "correo": "tomasosuna@uniandes.edu.co",
+            "contrase\u00f1a": "tomas1234",
+            "rol": "Estudiante"
+        }
+    ],
+    "learningPaths": [
+        {
+            "titulo": "Introducci\u00f3n a la Programaci\u00f3n",
+            "descripcion": "Un curso b\u00e1sico sobre los fundamentos de programaci\u00f3n",
+            "dificultad": "F\u00e1cil",
+            "duracion": 120,
+            "rating": 4.5,
+            "fecha_creacion": "2024-01-15",
+            "actividades": [
+                {
+                    "tipo": "RecursoEducativo",
+                    "descripcion": "Video introductorio sobre variables y tipos de datos",
+                    "objetivo": "Familiarizarse con conceptos b\u00e1sicos",
+                    "dificultad": "F\u00e1cil",
+                    "duracion": 30,
+                    "tipo_recurso": "Video",
+                    "url_recurso": "https://example.com/intro-video"
+                },
+                {
+                    "tipo": "Quiz",
+                    "descripcion": "Quiz sobre variables y tipos de datos",
+                    "objetivo": "Evaluar conocimientos b\u00e1sicos",
+                    "dificultad": "F\u00e1cil",
+                    "duracion": 15,
+                    "preguntas": [
+                        {
+                            "texto": "\u00bfQu\u00e9 es una variable en programaci\u00f3n?",
+                            "opciones": [
+                                "Un valor constante",
+                                "Un valor que puede cambiar",
+                                "Un operador"
+                            ],
+                            "respuesta_correcta": "Un valor que puede cambiar",
+                            "explicacion": "Una variable es un contenedor de datos cuyo valor puede cambiar."
+                        }
+                    ],
+                    "calificacion_minima": 70
+                }
+            ]
+        }
+    ],
+    "inscripciones": [
+        {
+            "estudiante": {
+                "nombre": "Tomas Osuna",
+                "correo": "tomasosuna@uniandes.edu.co",
+                "contrase\u00f1a": "tomas1234",
+                "rol": "Estudiante"
+            },
+            "learningPath": {
+                "titulo": "Introducci\u00f3n a la Programaci\u00f3n"
+            },
+            "fechaInscripcion": "2024-01-20",
+            "progreso": 0
+        }
+    ]
+}
